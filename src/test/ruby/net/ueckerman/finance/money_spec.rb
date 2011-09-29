@@ -1,5 +1,4 @@
-require 'rspec'
-require 'java'
+require '../../../../../../src/test/ruby/spec_helper'
 
 import Java::net.ueckerman.finance.Money
 
@@ -12,7 +11,7 @@ describe Money do
     it "should return Money whose value is that of both Monies combined" do
       addedMoney = money.add(Money.new(70))
 
-      addedMoney.valueInCents.should == 150
+      addedMoney.valueInCents.should eq(150)
     end
 
   end
@@ -22,7 +21,7 @@ describe Money do
     describe "when hashcode of the same object is compared" do
 
       it "should be equal" do
-        money.hashCode.should == money.hashCode
+        money.hashCode.should eq(money.hashCode)
       end
 
     end
@@ -30,7 +29,7 @@ describe Money do
     describe "when hashcode of another Money with an identical value is compared" do
 
       it "should be equal" do
-        money.hashCode.should == Money.new(80).hashCode
+        money.hashCode.should eq(Money.new(80).hashCode)
       end
 
     end
@@ -43,7 +42,7 @@ describe Money do
       end
 
       it "should not be equal" do
-        money.hashCode.should_not == @other_instance.hashCode
+        money.hashCode.should_not eq(@other_instance.hashCode)
       end
 
     end

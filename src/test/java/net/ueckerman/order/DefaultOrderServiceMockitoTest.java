@@ -73,7 +73,7 @@ public class DefaultOrderServiceMockitoTest {
     }
 
     @Test
-    public void placeOrderForChargesAnUnpaidOrder() {
+    public void placeOrderForChargesANewOrder() {
         RuntimeException forcedException = new RuntimeException("Invalid Order Status");
         doThrow(forcedException).when(paymentGateway).payFor(argThat(isOrderWithStatus(OrderStatus.NEW)));
 

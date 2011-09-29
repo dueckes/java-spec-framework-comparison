@@ -18,4 +18,5 @@ public class IllegalOrderStatusTransitionException extends RuntimeException {
     OrderStatus getTargetStatus() {
         return targetStatus;
     }
+
 }

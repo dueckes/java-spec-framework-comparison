@@ -83,11 +83,6 @@ public class DefaultOrderServiceEasyMockTest extends EasyMockSupport {
         verifyAll();
     }
 
-    private Order isOrderWithStatus(OrderStatus orderStatus) {
-        reportMatcher(new OrderWithStatusMatcher(orderStatus));
-        return null;
-    }
-
     @Test
     public void placeOrderForChargesForSavedOrderAfterNewOrderIsPersisted() {
         expect(orderRepository.save(unsavedOrder)).andReturn(savedOrder);
@@ -100,7 +95,7 @@ public class DefaultOrderServiceEasyMockTest extends EasyMockSupport {
     }
 
     @Test
-    public void placeOrderPersistsPaidOrderAfterOrderIsPersisted() {
+    public void placeOrderPersistsPaidOrderAfterOrderIsPaid() {
         paymentGateway.payFor(savedOrder);
         Order secondSavedOrder = createOrder();
         expect(orderRepository.save(savedOrder)).andReturn(secondSavedOrder);
@@ -120,6 +115,11 @@ public class DefaultOrderServiceEasyMockTest extends EasyMockSupport {
         assertThat(secondSavedOrder, is(equalTo(defaultOrderService.placeOrderFor(products, user))));
 
         verifyAll();
+    }
+
+    private Order isOrderWithStatus(OrderStatus orderStatus) {
+        reportMatcher(new OrderWithStatusMatcher(orderStatus));
+        return null;
     }
 
     private static class OrderWithStatusMatcher implements IArgumentMatcher {
