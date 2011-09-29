@@ -187,6 +187,9 @@
     <entry_points version="2.0" />
   </component>
   <component name="IdProvider" IDEtalkID="CF4E4EEB95B0D6D5A002B5363FA90301" />
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_STRING" value="-target 1.4" />
+  </component>
   <component name="JavadocGenerationManager">
     <option name="OUTPUT_DIRECTORY" />
     <option name="OPTION_SCOPE" value="protected" />
