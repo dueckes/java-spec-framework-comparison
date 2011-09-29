@@ -64,11 +64,10 @@ describe DefaultOrderService do
     end
 
     it "should return the last saved order" do
-      secondSavedOrder = OrderMother.createOrder
-      @order_repository.stub(:save).with(@saved_order).and_return(secondSavedOrder)
+      second_saved_order = OrderMother.createOrder
+      @order_repository.stub(:save).with(@saved_order).and_return(second_saved_order)
 
-      @default_order_service.placeOrderFor(@products, @user).should eq(secondSavedOrder)
-
+      @default_order_service.placeOrderFor(@products, @user).should eq(second_saved_order)
     end
 
   end
