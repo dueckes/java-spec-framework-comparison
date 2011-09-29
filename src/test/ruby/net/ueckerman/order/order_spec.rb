@@ -1,4 +1,4 @@
-require '../../../../../../src/test/ruby/spec_helper'
+require File.dirname(__FILE__) + '/../../../spec_helper'
 
 import Java::net.ueckerman.finance.Money
 import Java::net.ueckerman.order.Order
