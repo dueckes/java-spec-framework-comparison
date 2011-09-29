@@ -9,9 +9,9 @@ describe Money do
   context "#add" do
 
     it "should return Money whose value is that of both Monies combined" do
-      addedMoney = money.add(Money.new(70))
+      added_money = money.add(Money.new(70))
 
-      addedMoney.valueInCents.should eq(150)
+      added_money.valueInCents.should eq(150)
     end
 
   end
