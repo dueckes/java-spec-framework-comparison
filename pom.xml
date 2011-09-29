@@ -5,7 +5,7 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.ueckerman</groupId>
-  <artifactId>test-framework-comparison</artifactId>
+  <artifactId>java-test-comparison</artifactId>
   <packaging>jar</packaging>
   <version>1-SNAPSHOT</version>
   <name>Java Test Comparison</name>
@@ -111,6 +111,14 @@
           <failsOnError>true</failsOnError>
           <consoleOutput>true</consoleOutput>
         </configuration>
+        <executions>
+          <execution>
+            <phase>validate</phase>
+            <goals>
+              <goal>checkstyle</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
 
       <plugin>
