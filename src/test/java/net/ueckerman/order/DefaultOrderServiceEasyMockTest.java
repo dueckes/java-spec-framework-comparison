@@ -3,8 +3,8 @@ package net.ueckerman.order;
 import net.ueckerman.payment.PaymentGateway;
 import net.ueckerman.product.Product;
 import net.ueckerman.user.User;
-import org.easymock.EasyMockSupport;
 import org.easymock.IArgumentMatcher;
+import org.easymock.IMocksControl;
 import org.junit.Before;
 import org.junit.Test;
 
@@ -14,6 +14,7 @@ import static net.ueckerman.order.OrderMother.createOrder;
 import static net.ueckerman.product.ProductMother.createProducts;
 import static net.ueckerman.user.UserMother.createUser;
 import static org.easymock.EasyMock.anyObject;
+import static org.easymock.EasyMock.createStrictControl;
 import static org.easymock.EasyMock.expect;
 import static org.easymock.EasyMock.expectLastCall;
 import static org.easymock.EasyMock.reportMatcher;
@@ -21,7 +22,9 @@ import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.IsEqual.equalTo;
 import static org.junit.Assert.assertThat;
 
-public class DefaultOrderServiceEasyMockTest extends EasyMockSupport {
+public class DefaultOrderServiceEasyMockTest {
+
+    private IMocksControl control = createStrictControl();
 
     private OrderRepository orderRepository;
     private OrderFactory orderFactory;
@@ -36,9 +39,10 @@ public class DefaultOrderServiceEasyMockTest extends EasyMockSupport {
 
     @Before
     public void setUp() {
-        orderFactory = createStrictMock(OrderFactory.class);
-        orderRepository = createStrictMock(OrderRepository.class);
-        paymentGateway = createStrictMock(PaymentGateway.class);
+        control = createStrictControl();
+        orderFactory = control.createMock(OrderFactory.class);
+        orderRepository = control.createMock(OrderRepository.class);
+        paymentGateway = control.createMock(PaymentGateway.class);
 
         products = createProducts();
         user = createUser();
@@ -56,42 +60,42 @@ public class DefaultOrderServiceEasyMockTest extends EasyMockSupport {
     @Test
     public void placeOrderForPersistsCreatedOrder() {
         expect(orderRepository.save(unsavedOrder)).andReturn(savedOrder);
-        replayAll();
+        control.replay();
 
         defaultOrderService.placeOrderFor(products, user);
 
-        verifyAll();
+        control.verify();
     }
 
     @Test
     public void placeOrderForChargesForSavedOrderViaPaymentGateway() {
         paymentGateway.payFor(savedOrder);
-        replayAll();
+        control.replay();
 
         defaultOrderService.placeOrderFor(products, user);
 
-        verifyAll();
+        control.verify();
     }
 
     @Test
     public void placeOrderForChargesAnUnpaidOrder() {
         paymentGateway.payFor(isOrderWithStatus(OrderStatus.NEW));
-        replayAll();
+        control.replay();
 
         defaultOrderService.placeOrderFor(products, user);
 
-        verifyAll();
+        control.verify();
     }
 
     @Test
     public void placeOrderForChargesForSavedOrderAfterNewOrderIsPersisted() {
         expect(orderRepository.save(unsavedOrder)).andReturn(savedOrder);
         paymentGateway.payFor(savedOrder);
-        replayAll();
+        control.replay();
 
         defaultOrderService.placeOrderFor(products, user);
 
-        verifyAll();
+        control.verify();
     }
 
     @Test
@@ -99,22 +103,22 @@ public class DefaultOrderServiceEasyMockTest extends EasyMockSupport {
         paymentGateway.payFor(savedOrder);
         Order secondSavedOrder = createOrder();
         expect(orderRepository.save(savedOrder)).andReturn(secondSavedOrder);
-        replayAll();
+        control.replay();
 
         defaultOrderService.placeOrderFor(products, user);
 
-        verifyAll();
+        control.verify();
     }
 
     @Test
     public void placeOrderForReturnsLastSavedOrder() {
         Order secondSavedOrder = createOrder();
         expect(orderRepository.save(savedOrder)).andReturn(secondSavedOrder);
-        replayAll();
+        control.replay();
 
         assertThat(secondSavedOrder, is(equalTo(defaultOrderService.placeOrderFor(products, user))));
 
-        verifyAll();
+        control.verify();
     }
 
     private Order isOrderWithStatus(OrderStatus orderStatus) {

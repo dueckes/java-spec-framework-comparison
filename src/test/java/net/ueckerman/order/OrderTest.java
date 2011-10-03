@@ -20,8 +20,9 @@ import static org.powermock.api.mockito.PowerMockito.mock;
 @PrepareForTest(OrderStatus.class)
 public class OrderTest {
 
-    private Order order;
     private OrderStatus initialStatus;
+
+    private Order order;
 
     @Before
     public void setUp() throws Exception {
