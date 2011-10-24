@@ -186,6 +186,382 @@
   <component name="EntryPointsManager">
     <entry_points version="2.0" />
   </component>
+  <component name="FacetAutodetectingManager">
+    <autodetection-disabled>
+      <facet-type id="JRUBY">
+        <modules>
+          <module name="java-test-comparison">
+            <files>
+              <file url="file://$PROJECT_DIR$/src/test/resources/Gemfile" />
+              <file url="file://$PROJECT_DIR$/src/test/ruby/net/ueckerman/finance/money_spec.rb" />
+              <file url="file://$PROJECT_DIR$/src/test/ruby/net/ueckerman/order/default_order_service_spec.rb" />
+              <file url="file://$PROJECT_DIR$/src/test/ruby/net/ueckerman/order/illegal_order_status_transition_exception_spec.rb" />
+              <file url="file://$PROJECT_DIR$/src/test/ruby/net/ueckerman/order/order_spec.rb" />
+              <file url="file://$PROJECT_DIR$/src/test/ruby/net/ueckerman/order/order_status_spec.rb" />
+              <file url="file://$PROJECT_DIR$/src/test/ruby/net/ueckerman/payment/logging_payment_gateway_spec.rb" />
+              <file url="file://$PROJECT_DIR$/src/test/ruby/spec_helper.rb" />
+              <file url="file://$PROJECT_DIR$/target/rspec-runner.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/src/test/resources/Gemfile" />
+              <file url="file://$PROJECT_DIR$/unit-test/src/test/ruby/net/ueckerman/finance/money_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/src/test/ruby/net/ueckerman/order/default_order_service_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/src/test/ruby/net/ueckerman/order/illegal_order_status_transition_exception_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/src/test/ruby/net/ueckerman/order/order_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/src/test/ruby/net/ueckerman/order/order_status_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/src/test/ruby/net/ueckerman/payment/logging_payment_gateway_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/src/test/ruby/spec_helper.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rspec-runner.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/Rakefile" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/diff-lcs.gemspec" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/lib/diff-lcs.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/lib/diff/lcs.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/lib/diff/lcs/array.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/lib/diff/lcs/block.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/lib/diff/lcs/callbacks.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/lib/diff/lcs/change.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/lib/diff/lcs/htmldiff.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/lib/diff/lcs/hunk.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/lib/diff/lcs/ldiff.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/lib/diff/lcs/string.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/spec/diff_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/spec/lcs_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/spec/patch_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/spec/sdiff_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/spec/spec_helper.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/spec/traverse_balanced_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/diff-lcs-1.1.3/spec/traverse_sequences_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/Rakefile" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/lib/jopenssl/version.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/lib/openssl.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/lib/openssl/bn.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/lib/openssl/buffering.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/lib/openssl/cipher.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/lib/openssl/config.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/lib/openssl/digest.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/lib/openssl/dummy.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/lib/openssl/dummyssl.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/lib/openssl/pkcs7.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/lib/openssl/ssl.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/lib/openssl/x509.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/fixture/purpose/ca/ca_config.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/fixture/purpose/scripts/gen_cert.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/fixture/purpose/scripts/gen_csr.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/fixture/purpose/scripts/init_ca.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/java/test_java_attribute.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/java/test_java_bio.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/java/test_java_mime.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/java/test_java_pkcs7.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/java/test_java_smime.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/ssl_server.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_asn1.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_cipher.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_config.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_digest.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_ec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_hmac.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_ns_spki.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_pair.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_pkcs7.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_pkey_rsa.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_ssl.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_x509cert.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_x509crl.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_x509ext.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_x509name.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_x509req.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/test_x509store.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/openssl/utils.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/ref/compile.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/test_all.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/test_certificate.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/test_cipher.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/test_imaps.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/test_integration.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/test_java.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/test_openssl.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/test_parse_certificate.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/test_pkcs7.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/test_pkey.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/test_ssl.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/test_x509store.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/jruby-openssl-0.7.4/test/ut_eof.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-2.7.0/Gemfile" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-2.7.0/Rakefile" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-2.7.0/lib/rspec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-2.7.0/lib/rspec/version.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-2.7.0/rspec.gemspec" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/features/step_definitions/additional_cli_steps.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/features/support/env.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/autotest/discover.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/autotest/rspec2.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/autorun.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/backward_compatibility.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/command_line.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/command_line_configuration.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/configuration.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/configuration_options.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/deprecation.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/drb_command_line.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/dsl.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/errors.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/example.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/example_group.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/expecting/with_rspec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/expecting/with_stdlib.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/extensions.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/extensions/instance_eval_with_args.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/extensions/kernel.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/extensions/module_eval_with_args.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/formatters/base_formatter.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/formatters/base_text_formatter.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/formatters/documentation_formatter.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/formatters/helpers.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/formatters/html_formatter.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/formatters/progress_formatter.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/formatters/snippet_extractor.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/formatters/text_mate_formatter.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/hooks.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/let.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/load_path.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/metadata.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/metadata_hash_builder.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/mocking/with_absolutely_nothing.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/mocking/with_flexmock.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/mocking/with_mocha.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/mocking/with_rr.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/mocking/with_rspec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/option_parser.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/pending.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/rake_task.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/reporter.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/ruby_project.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/runner.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/shared_context.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/shared_example_group.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/subject.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/version.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/core/world.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/monkey.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/lib/rspec/monkey/spork/test_framework/rspec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/autotest/discover_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/autotest/failed_results_re_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/autotest/rspec_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/command_line_configuration_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/command_line_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/configuration_options_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/configuration_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/deprecations_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/drb_command_line_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/example_group_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/example_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/formatters/base_formatter_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/formatters/base_text_formatter_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/formatters/documentation_formatter_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/formatters/helpers_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/formatters/html_formatter_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/formatters/progress_formatter_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/formatters/snippet_extractor_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/formatters/text_mate_formatter_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/hooks_filtering_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/hooks_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/kernel_extensions_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/let_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/metadata_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/option_parser_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/pending_example_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/rake_task_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/reporter_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/resources/a_bar.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/resources/a_foo.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/resources/a_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/resources/custom_example_group_runner.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/resources/formatter_specs.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/resources/utf8_encoded.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/rspec_matchers_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/ruby_project_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/runner_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/shared_context_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/shared_example_group_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/subject_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core/world_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/rspec/core_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/spec_helper.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/support/matchers.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/support/shared_example_groups.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-core-2.7.1/spec/support/spec_files.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/features/step_definitions/additional_cli_steps.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/features/support/env.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec-expectations.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/expectations.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/expectations/deprecation.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/expectations/differ.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/expectations/errors.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/expectations/extensions.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/expectations/extensions/array.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/expectations/extensions/kernel.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/expectations/extensions/object.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/expectations/fail_with.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/expectations/handler.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/expectations/version.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/be.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/be_close.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/be_instance_of.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/be_kind_of.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/be_within.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/block_aliases.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/change.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/compatibility.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/cover.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/dsl.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/eq.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/eql.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/equal.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/errors.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/exist.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/extensions/instance_eval_with_args.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/generated_descriptions.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/has.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/have.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/include.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/match.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/match_array.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/matcher.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/method_missing.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/operator_matcher.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/pretty.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/raise_error.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/respond_to.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/satisfy.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/lib/rspec/matchers/throw_symbol.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/expectations/differ_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/expectations/extensions/kernel_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/expectations/fail_with_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/expectations/handler_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/be_close_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/be_instance_of_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/be_kind_of_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/be_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/be_within_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/change_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/compatibility_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/cover_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/description_generation_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/dsl_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/eq_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/eql_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/equal_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/exist_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/has_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/have_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/include_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/match_array_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/match_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/matcher_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/matchers_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/method_missing_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/operator_matcher_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/raise_error_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/respond_to_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/satisfy_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/rspec/matchers/throw_symbol_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/spec_helper.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/support/classes.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/support/matchers.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-expectations-2.7.0/spec/support/ruby_version.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/features/step_definitions/additional_cli_steps.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/features/support/env.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/any_instance.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/any_instance/chain.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/any_instance/expectation_chain.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/any_instance/message_chains.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/any_instance/recorder.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/any_instance/stub_chain.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/any_instance/stub_chain_chain.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/argument_expectation.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/argument_matchers.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/error_generator.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/errors.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/extensions/instance_exec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/extensions/marshal.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/extensions/psych.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/framework.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/message_expectation.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/method_double.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/methods.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/mock.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/order_group.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/proxy.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/serialization.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/space.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/spec_methods.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/standalone.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/rspec/mocks/version.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/lib/spec/mocks.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/and_yield_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/any_instance/message_chains_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/any_instance_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/any_number_of_times_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/argument_expectation_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/at_least_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/at_most_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/block_return_value_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/bug_report_10260_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/bug_report_10263_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/bug_report_11545_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/bug_report_496_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/bug_report_600_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/bug_report_7611_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/bug_report_8165_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/bug_report_830_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/bug_report_957_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/double_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/failing_argument_matchers_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/hash_including_matcher_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/hash_not_including_matcher_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/mock_ordering_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/mock_space_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/mock_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/multiple_return_value_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/nil_expectation_warning_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/null_object_mock_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/once_counts_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/options_hash_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/partial_mock_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/partial_mock_using_mocks_directly_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/passing_argument_matchers_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/precise_counts_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/record_messages_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/serialization_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/stash_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/stub_chain_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/stub_implementation_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/stub_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/stubbed_message_expectations_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/to_ary_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks/twice_counts_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/rspec/mocks_spec.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/gems/rspec-mocks-2.7.0/spec/spec_helper.rb" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/specifications/diff-lcs-1.1.3.gemspec" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/specifications/jruby-openssl-0.7.4.gemspec" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/specifications/rspec-2.7.0.gemspec" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/specifications/rspec-core-2.7.1.gemspec" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/specifications/rspec-expectations-2.7.0.gemspec" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/rubygems/specifications/rspec-mocks-2.7.0.gemspec" />
+              <file url="file://$PROJECT_DIR$/unit-test/target/test-classes/Gemfile" />
+            </files>
+          </module>
+        </modules>
+      </facet-type>
+      <facet-type id="scala">
+        <modules>
+          <module name="java-test-comparison" />
+          <module name="unit-test" />
+        </modules>
+      </facet-type>
+    </autodetection-disabled>
+  </component>
   <component name="IdProvider" IDEtalkID="CF4E4EEB95B0D6D5A002B5363FA90301" />
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_STRING" value="-target 1.6" />
@@ -211,6 +587,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/unit-test/pom.xml" />
       </list>
     </option>
   </component>
@@ -335,9 +712,16 @@
       </item>
     </group>
   </component>
+  <component name="ProjectDictionaryState">
+    <dictionary name="dueckes">
+      <words>
+        <w>ueckerman</w>
+      </words>
+    </dictionary>
+  </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/java-test-comparison.iml" filepath="$PROJECT_DIR$/java-test-comparison.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit-test/unit-test.iml" filepath="$PROJECT_DIR$/unit-test/unit-test.iml" />
     </modules>
   </component>
   <component name="ProjectResources">
@@ -428,6 +812,17 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.hamcrest:hamcrest-library:1.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.1/hamcrest-library-1.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.1/hamcrest-library-1.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/hamcrest/hamcrest-library/1.1/hamcrest-library-1.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.javassist:javassist:3.15.0-GA">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA.jar!/" />
@@ -437,6 +832,50 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/javassist/javassist/3.15.0-GA/javassist-3.15.0-GA-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jdave:jdave-core:1.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jdave/jdave-core/1.3/jdave-core-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jdave/jdave-core/1.3/jdave-core-1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jdave/jdave-core/1.3/jdave-core-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jdave:jdave-junit4:1.3">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jdave/jdave-junit4/1.3/jdave-junit4-1.3.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jdave/jdave-junit4/1.3/jdave-junit4-1.3-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jdave/jdave-junit4/1.3/jdave-junit4-1.3-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jmock:jmock-legacy:2.4.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jmock/jmock-legacy/2.4.0/jmock-legacy-2.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jmock/jmock-legacy/2.4.0/jmock-legacy-2.4.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jmock/jmock-legacy/2.4.0/jmock-legacy-2.4.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.jmock:jmock:2.4.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jmock/jmock/2.4.0/jmock-2.4.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jmock/jmock/2.4.0/jmock-2.4.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/jmock/jmock/2.4.0/jmock-2.4.0-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.mockito:mockito-all:1.9.0-rc1">
@@ -527,6 +966,36 @@
         <root url="jar://$MAVEN_REPOSITORY$/org/powermock/powermock-reflect/1.4.10/powermock-reflect-1.4.10-sources.jar!/" />
       </SOURCES>
     </library>
+    <library name="Maven: org.scala-lang:scala-compiler-bundle:2.9.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-compiler/2.9.0/scala-compiler-2.9.0.jar!/" />
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.9.0/scala-library-2.9.0.jar!/" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+    </library>
+    <library name="Maven: org.scala-lang:scala-library:2.9.0">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.9.0/scala-library-2.9.0.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.9.0/scala-library-2.9.0-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scala-lang/scala-library/2.9.0/scala-library-2.9.0-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: org.scalatest:scalatest_2.9.0:1.6.1">
+      <CLASSES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.9.0/1.6.1/scalatest_2.9.0-1.6.1.jar!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.9.0/1.6.1/scalatest_2.9.0-1.6.1-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$MAVEN_REPOSITORY$/org/scalatest/scalatest_2.9.0/1.6.1/scalatest_2.9.0-1.6.1-sources.jar!/" />
+      </SOURCES>
+    </library>
     <library name="Maven: org.slf4j:slf4j-api:1.5.8">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar!/" />
@@ -537,6 +1006,14 @@
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8-sources.jar!/" />
       </SOURCES>
+    </library>
+    <library name="scala-compiler-2.9.0.1">
+      <CLASSES>
+        <root url="file:///usr/local/scala/scala-2.9.0.1/lib" />
+      </CLASSES>
+      <JAVADOC />
+      <SOURCES />
+      <jarDirectory url="file:///usr/local/scala/scala-2.9.0.1/lib" recursive="false" />
     </library>
   </component>
 </project>

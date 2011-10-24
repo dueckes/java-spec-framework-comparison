@@ -1,0 +1,198 @@
+<?xml version="1.0"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0
+                             http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>net.ueckerman</groupId>
+  <artifactId>java-unit-test-comparison</artifactId>
+  <packaging>jar</packaging>
+  <version>1-SNAPSHOT</version>
+  <name>Unit Test Comparison</name>
+
+  <scm>
+    <connection>scm:git:ssh://git@github.com:dueckes/java-test-comparison.git</connection>
+  </scm>
+
+  <repositories>
+
+    <repository>
+      <id>rubygems-releases</id>
+      <url>http://rubygems-proxy.torquebox.org/releases</url>
+    </repository>
+
+    <repository>
+      <id>scala-tools</id>
+      <url>http://www.scala-tools.org/repo-releases</url>
+    </repository>
+
+    <repository>
+      <id>laughing-panda</id>
+      <name>Laughing Panda</name>
+      <url>http://maven.laughingpanda.org/maven2/</url>
+    </repository>
+
+  </repositories>
+
+  <dependencies>
+
+    <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.0.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>r09</version>
+    </dependency>
+
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit-dep</artifactId>
+      <version>4.9</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.easymock</groupId>
+      <artifactId>easymock</artifactId>
+      <version>3.0</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.mockito</groupId>
+      <artifactId>mockito-all</artifactId>
+      <version>1.9.0-rc1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-module-junit4</artifactId>
+      <version>1.4.10</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.powermock</groupId>
+      <artifactId>powermock-api-mockito</artifactId>
+      <version>1.4.10</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.slf4j</groupId>
+      <artifactId>slf4j-api</artifactId>
+      <version>1.5.8</version>
+    </dependency>
+
+    <dependency>
+      <groupId>rubygems</groupId>
+      <artifactId>rspec</artifactId>
+      <version>2.7.0</version>
+      <type>gem</type>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.scalatest</groupId>
+      <artifactId>scalatest_2.9.0</artifactId>
+      <version>1.6.1</version>
+      <scope>test</scope>
+    </dependency>
+
+    <dependency>
+      <groupId>org.jdave</groupId>
+      <artifactId>jdave-junit4</artifactId>
+      <version>1.3</version>
+      <scope>test</scope>
+    </dependency>
+
+  </dependencies>
+
+  <build>
+
+    <plugins>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-compiler-plugin</artifactId>
+        <version>2.3.2</version>
+        <configuration>
+          <source>1.6</source>
+          <target>1.6</target>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-checkstyle-plugin</artifactId>
+        <version>2.7</version>
+        <configuration>
+          <configLocation>src/main/resources/checkstyle_checks.xml</configLocation>
+          <failOnViolation>true</failOnViolation>
+          <failsOnError>true</failsOnError>
+          <consoleOutput>true</consoleOutput>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>validate</phase>
+            <goals>
+              <goal>checkstyle</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.scala-tools</groupId>
+        <artifactId>maven-scala-plugin</artifactId>
+        <version>2.15.2</version>
+        <executions>
+          <execution>
+            <goals>
+              <goal>testCompile</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-surefire-plugin</artifactId>
+        <version>2.10</version>
+        <configuration>
+          <useSystemClassLoader>false</useSystemClassLoader>
+          <argLine>-Xmx512m</argLine>
+          <includes>
+            <include>**/*Test.java</include>
+            <include>**/*Spec.java</include>
+          </includes>
+        </configuration>
+      </plugin>
+
+      <plugin>
+        <groupId>de.saumya.mojo</groupId>
+        <artifactId>rspec-maven-plugin</artifactId>
+        <version>0.28.4</version>
+        <configuration>
+          <specSourceDirectory>src/test/ruby</specSourceDirectory>
+        </configuration>
+        <executions>
+          <execution>
+            <phase>test</phase>
+            <goals>
+              <goal>test</goal>
+            </goals>
+          </execution>
+        </executions>
+      </plugin>
+
+    </plugins>
+
+  </build>
+
+</project>
