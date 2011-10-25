@@ -5,10 +5,10 @@
                              http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.ueckerman</groupId>
-  <artifactId>java-unit-test-comparison</artifactId>
+  <artifactId>java-unit-test-tool-comparison</artifactId>
   <packaging>jar</packaging>
   <version>1-SNAPSHOT</version>
-  <name>Unit Test Comparison</name>
+  <name>Unit Test Tool Comparison</name>
 
   <scm>
     <connection>scm:git:ssh://git@github.com:dueckes/java-test-comparison.git</connection>

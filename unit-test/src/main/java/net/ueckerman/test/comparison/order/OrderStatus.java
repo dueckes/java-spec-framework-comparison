@@ -9,8 +9,8 @@ public enum OrderStatus {
         this.validPriorStatus = validPriorStatus;
     }
 
-    public boolean isValidPriorStatus(OrderStatus status) {
-        return validPriorStatus == status;
+    public boolean isValidPriorStatus(OrderStatus priorStatus) {
+        return validPriorStatus == priorStatus;
     }
 
 }
