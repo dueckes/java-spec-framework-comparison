@@ -2,7 +2,7 @@ An exercise in comparing test tools exercising Java code.
 
 Unit Test Tools compared:
 * JUnit
-* JDave
+* JDave (including Mockito and EasyMock comparison)
 * RSpec (via JRuby)
 * ScalaTest
 
