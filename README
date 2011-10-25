@@ -1,1 +1,11 @@
-An exercise in comparing test tools exercising Java code
+An exercise in comparing test tools exercising Java code.
+
+Unit Test Tools compared:
+* JUnit
+* JDave
+* RSpec (via JRuby)
+* ScalaTest
+
+Acceptance Test Tools compared (intended):
+* JBehave
+* cucumber-jvm
