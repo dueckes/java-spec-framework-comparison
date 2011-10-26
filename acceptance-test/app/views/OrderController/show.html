@@ -1,0 +1,29 @@
+#{extends 'main.html' /}
+#{set title:'Order #{order.id} Details' /}
+
+<h1>Order Details</h1>
+<div>
+  <table id="order">
+    <tr>
+      <th>ID</th>
+      <th>STATUS</th>
+    </tr>
+    <tr>
+      <td id="order_id">${order.id}</td>
+      <td id="order_status">${order.status}</td>
+    </tr>
+  </table>
+  <br/>
+  <table id="products">
+    <tr>
+      <th>DESCRIPTION</th>
+      <th>PRICE</th>
+    </tr>
+    #{list items:order.products, as:'product'}
+    <tr>
+      <td>${product.description}</td>
+      <td>${product.cost}</td>
+    </tr>
+    #{/list}
+  </table>
+</div>

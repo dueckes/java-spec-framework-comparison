@@ -1,0 +1,18 @@
+#{extends 'main.html' /}
+#{set title:'Show Orders' /}
+
+<h1>Orders</h1>
+<div>
+  <table id="orders">
+    <tr>
+      <th>ID</th>
+      <th>STATUS</th>
+    </tr>
+    #{list items:orders, as:'order'}
+    <tr>
+      <td><a id="show_order_${order.id}" href="@{OrderController.show(order.id)}">${order.id}</a></td>
+      <td>${order.status}</td>
+    </tr>
+    #{/list}
+  </table>
+</div>
