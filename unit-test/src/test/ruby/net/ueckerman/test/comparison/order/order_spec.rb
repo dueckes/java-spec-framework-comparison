@@ -8,7 +8,12 @@ import Java::net.ueckerman.test.comparison.product.ProductMother
 
 describe Order do
 
-  let(:order) { Order.new(ProductMother.createProducts(28, 68, 88)) }
+  let(:products) { ProductMother.createProducts(28, 68, 88) }
+  let(:order) { Order.new(products) }
+
+  it "should have a default id of nil" do
+    order.id.should be_nil
+  end
 
   it "should have an initial status of new" do
     order.status.should eq(OrderStatus::NEW)
@@ -18,6 +23,25 @@ describe Order do
 
     it "should return Money whose value is the total value of all products" do
       order.totalCost.should eq(Money.new(28 + 68 + 88))
+    end
+
+  end
+
+  context "#copyWithId" do
+
+    it "should return an order containing the provided id" do
+      copy_of_order = order.copyWithId(8)
+
+      copy_of_order.id.should eql(8)
+    end
+
+    it "should return an order containing the products and status of the order" do
+      order.transitionToStatus(OrderStatus::PAID)
+
+      copy_of_order = order.copyWithId(8)
+
+      copy_of_order.products.should eql(products)
+      copy_of_order.status.should eql(OrderStatus::PAID)
     end
 
   end
@@ -34,7 +58,7 @@ describe Order do
       it "should establish the orders status as the target status" do
         order.transitionToStatus(@target_status)
 
-        order.status.should eq(@target_status)
+        order.status.should eql(@target_status)
       end
 
     end

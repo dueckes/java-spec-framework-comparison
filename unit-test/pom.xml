@@ -34,6 +34,10 @@
 
   </repositories>
 
+  <properties>
+    <rspec.version>2.7.0</rspec.version>
+  </properties>
+
   <dependencies>
 
     <dependency>
@@ -92,7 +96,7 @@
     <dependency>
       <groupId>rubygems</groupId>
       <artifactId>rspec</artifactId>
-      <version>2.7.0</version>
+      <version>${rspec.version}</version>
       <type>gem</type>
       <scope>test</scope>
     </dependency>
@@ -177,8 +181,10 @@
       <plugin>
         <groupId>de.saumya.mojo</groupId>
         <artifactId>rspec-maven-plugin</artifactId>
-        <version>0.28.4</version>
+        <version>0.28.5</version>
         <configuration>
+          <includeOpenSSL>false</includeOpenSSL>
+          <rspecVersion>${rspec.version}</rspecVersion>
           <specSourceDirectory>src/test/ruby</specSourceDirectory>
         </configuration>
         <executions>

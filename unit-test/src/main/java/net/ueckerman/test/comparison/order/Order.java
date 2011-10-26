@@ -11,14 +11,24 @@ import java.util.List;
  */
 public class Order {
 
+    private final Integer id;
     private final List<Product> products;
 
     private OrderStatus status;
 
-    public Order(List<Product> products) {
+    private Order(Integer id, List<Product> products, OrderStatus status) {
         Validate.notEmpty(products, "At least one product must be provided");
+        this.id = id;
         this.products = products;
-        this.status = OrderStatus.NEW;
+        this.status = status;
+    }
+
+    public Order(List<Product> products) {
+        this(null, products, OrderStatus.NEW);
+    }
+
+    public Order copyWithId(Integer id) {
+        return new Order(id, products, status);
     }
 
     public Money totalCost() {
@@ -29,7 +39,15 @@ public class Order {
         return total;
     }
 
-    OrderStatus getStatus() {
+    public Integer getId() {
+        return id;
+    }
+
+    public List<Product> getProducts() {
+        return products;
+    }
+
+    public OrderStatus getStatus() {
         return status;
     }
 
