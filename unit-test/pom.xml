@@ -184,6 +184,7 @@
         <version>0.28.5</version>
         <configuration>
           <includeOpenSSL>false</includeOpenSSL>
+          <jrubyFork>false</jrubyFork>
           <rspecVersion>${rspec.version}</rspecVersion>
           <specSourceDirectory>src/test/ruby</specSourceDirectory>
         </configuration>
