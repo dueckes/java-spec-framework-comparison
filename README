@@ -23,7 +23,7 @@ Build via: mvn test
 Acceptance Test Codebase
 ========================
 Contains a Play! application using the contrived model in the unit test codebase via Play!'s Maven plugin.
-The Play! application must currently be started / stopped manually.
+The Play! application (v1.2.3) must currently be started / stopped manually.
 
 Also contains cuke4duke features exercising the Play! application and a demonstration of a fairly complex feature.
 Scala, Selenium 2 and ScalaTest are used to fulfill the step definitions.
