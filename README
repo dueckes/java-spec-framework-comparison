@@ -1,19 +1,19 @@
-An exercise in comparing test tools exercising Java code.
+A comparison of test and specification frameworks using polyglot programming to verify java source.
 
 Unit Test Codebase
 ==================
-src directory contains a contrived model with imaginary services to facilitate writing useful tests.
+src directory contains a contrived model with imaginary services to facilitate writing useful specifications.
 
-test directory compares the following test and specification centric tools:
-* JUnit
-* JDave
-* RSpec (via JRuby)
-* ScalaTest
+test directory exercises the following test and specification frameworks:
+* JUnit (in Java)
+* JDave (in Java)
+* RSpec (in Ruby via JRuby)
+* ScalaTest (in Scala)
 
-Mock tools compared and demonstrated:
-* Mockito
-* EasyMock
-* Powermock
+Mock tools exercised:
+* Mockito (both Java and Scala)
+* EasyMock (both Java and Scala)
+* Powermock (in Java)
 
 Other tools used:
 * Checkstyle
