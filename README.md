@@ -30,7 +30,7 @@ Scala, Selenium 2 and ScalaTest are used to fulfill the step definitions.
 
 In order to run specs:
 # Navigate to unit-spec directory
-# Install unit-spec snapshot in local m2 repository via: mvn clean install
+# Install unit-spec snapshot in local m2 repository via: mvn install
 # Navigate to acceptance-spec directory
 # Install Play! dependencies via: play dependencies & play mvn:update
 # Start Play! via: play run --%prod

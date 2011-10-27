@@ -3,6 +3,6 @@ source "http://rubygems.org"
 source :rubyforge
 source "http://gems.rubyforge.org"
 
-group :test do
+group :spec do
   gem "rspec", "2.6"
 end

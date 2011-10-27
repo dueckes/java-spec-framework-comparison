@@ -67,7 +67,7 @@
 
     <dependency>
       <groupId>net.ueckerman</groupId>
-      <artifactId>java-unit-test-tool-comparison</artifactId>
+      <artifactId>java-unit-spec-framework-comparison</artifactId>
       <version>1-SNAPSHOT</version>
     </dependency>
 

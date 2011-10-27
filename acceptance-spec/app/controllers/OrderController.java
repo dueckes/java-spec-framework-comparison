@@ -1,10 +1,10 @@
 package controllers;
 
-import net.ueckerman.test.comparison.finance.Money;
-import net.ueckerman.test.comparison.order.InMemoryOrderRepository;
-import net.ueckerman.test.comparison.order.Order;
-import net.ueckerman.test.comparison.order.OrderRepository;
-import net.ueckerman.test.comparison.product.Product;
+import net.ueckerman.spec.comparison.finance.Money;
+import net.ueckerman.spec.comparison.order.InMemoryOrderRepository;
+import net.ueckerman.spec.comparison.order.Order;
+import net.ueckerman.spec.comparison.order.OrderRepository;
+import net.ueckerman.spec.comparison.product.Product;
 import play.mvc.Controller;
 
 import java.util.ArrayList;

@@ -384,17 +384,6 @@
         <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15-sources.jar!/" />
       </SOURCES>
     </library>
-    <library name="Maven: net.ueckerman:java-unit-test-tool-comparison:1-SNAPSHOT">
-      <CLASSES>
-        <root url="jar://$PROJECT_DIR$/unit-spec/pom.xml!/" />
-      </CLASSES>
-      <JAVADOC>
-        <root url="jar://$PROJECT_DIR$/unit-spec/pom-javadoc.jar!/" />
-      </JAVADOC>
-      <SOURCES>
-        <root url="jar://$PROJECT_DIR$/unit-spec/pom-sources.jar!/" />
-      </SOURCES>
-    </library>
     <library name="Maven: org.apache.ant:ant-launcher:1.8.2">
       <CLASSES>
         <root url="jar://$MAVEN_REPOSITORY$/org/apache/ant/ant-launcher/1.8.2/ant-launcher-1.8.2.jar!/" />
