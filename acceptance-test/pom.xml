@@ -141,6 +141,7 @@
         <artifactId>maven-dependency-plugin</artifactId>
       </plugin>
 
+      <!-- Disabled as this attempts to download and explode an old version of Play! -->
       <!--<plugin>-->
         <!--<artifactId>maven-antrun-plugin</artifactId>-->
       <!--</plugin>-->
