@@ -1,7 +1,9 @@
 h2. Overview
+
 A comparison of specification and test frameworks using polyglot programming to verify Java source.
 
 h2. Unit Spec Codebase
+
 src directory contains a contrived model with imaginary services to facilitate writing useful specifications.
 
 test directory exercises the following specification and test frameworks:
@@ -19,6 +21,7 @@ Other tools used:
 * Checkstyle
 
 Run specs via: mvn test
+
 
 h2. Acceptance Spec Codebase
 Contains a Play! application using the contrived model in the unit test codebase via Play!'s Maven plugin.
