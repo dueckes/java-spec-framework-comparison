@@ -72,6 +72,18 @@
     </dependency>
 
     <dependency>
+      <groupId>org.apache.commons</groupId>
+      <artifactId>commons-lang3</artifactId>
+      <version>3.0.1</version>
+    </dependency>
+
+    <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava</artifactId>
+      <version>r09</version>
+    </dependency>
+
+    <dependency>
       <groupId>cuke4duke</groupId>
       <artifactId>cuke4duke</artifactId>
       <version>${cuke4duke.version}</version>
@@ -86,15 +98,10 @@
     </dependency>
 
     <dependency>
-      <groupId>org.apache.commons</groupId>
-      <artifactId>commons-lang3</artifactId>
-      <version>3.0.1</version>
-    </dependency>
-
-    <dependency>
-      <groupId>com.google.guava</groupId>
-      <artifactId>guava</artifactId>
-      <version>r09</version>
+        <groupId>org.seleniumhq.selenium</groupId>
+        <artifactId>selenium-java</artifactId>
+        <version>2.9.0</version>
+        <scope>test</scope>
     </dependency>
 
     <dependency>
@@ -102,13 +109,7 @@
       <artifactId>junit-dep</artifactId>
       <version>4.9</version>
       <scope>test</scope>
-    </dependency>
-
-    <dependency>
-      <groupId>org.slf4j</groupId>
-      <artifactId>slf4j-api</artifactId>
-      <version>1.5.8</version>
-    </dependency>
+      </dependency>
 
     <dependency>
       <groupId>org.scalatest</groupId>
@@ -140,9 +141,9 @@
         <artifactId>maven-dependency-plugin</artifactId>
       </plugin>
 
-      <plugin>
-        <artifactId>maven-antrun-plugin</artifactId>
-      </plugin>
+      <!--<plugin>-->
+        <!--<artifactId>maven-antrun-plugin</artifactId>-->
+      <!--</plugin>-->
 
       <!-- Custom Plugins -->
       <plugin>
@@ -152,27 +153,10 @@
         <configuration>
           <source>1.6</source>
           <target>1.6</target>
+          <excludes>
+            <exclude>**/*.java</exclude>
+          </excludes>
         </configuration>
-      </plugin>
-
-      <plugin>
-        <groupId>org.apache.maven.plugins</groupId>
-        <artifactId>maven-checkstyle-plugin</artifactId>
-        <version>2.7</version>
-        <configuration>
-          <configLocation>src/main/resources/checkstyle_checks.xml</configLocation>
-          <failOnViolation>true</failOnViolation>
-          <failsOnError>true</failsOnError>
-          <consoleOutput>true</consoleOutput>
-        </configuration>
-        <executions>
-          <execution>
-            <phase>validate</phase>
-            <goals>
-              <goal>checkstyle</goal>
-            </goals>
-          </execution>
-        </executions>
       </plugin>
 
       <plugin>
@@ -215,6 +199,7 @@
           <cucumberArgs>
             <cucumberArg>${project.basedir}/target/test-classes</cucumberArg>
           </cucumberArgs>
+          <extraCucumberArgs>--format pretty --format html --out target/cuke4duke_output.html</extraCucumberArgs>
           <gems>
             <gem>install cuke4duke --version ${cuke4duke.version}</gem>
           </gems>

@@ -4,12 +4,12 @@ Feature: Test of Cuke4Dukes
   I would like the scenarios of this test feature to execute
 
 Scenario: A simple passing scenario
-  Given the text hello
-  And the text world
-  When I combine the text
-  Then the combined text reads 'hello world'
+  Given I intend on saying hello
+  And I intend on saying world
+  When I say what I intended
+  Then I said 'hello world'
 
   Scenario: A simple failing scenario
-  Given the text some text
-  When I combine the text
-  Then the combined text reads 'does not match'
+  Given I intend on saying some text
+  When I say what I intended
+  Then I said 'something else'
