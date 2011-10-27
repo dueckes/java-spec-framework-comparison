@@ -48,7 +48,7 @@ describe Order do
 
   context "#transitionToStatus" do
 
-    describe "when the target status is a valid prior status" do
+    describe "when the target status is a subsequent prior status" do
 
       before(:each) do
         @target_status = OrderStatus::PAID
@@ -63,14 +63,14 @@ describe Order do
 
     end
 
-    describe "when the target status is an invalid prior status" do
+    describe "when the target status is an invalid subsequent status" do
 
       before(:each) do
         @target_status = OrderStatus::NEW
         @target_status.stub(:isValidPriorStatus).with(order.status).and_return(false)
       end
 
-      it "should establish the orders status as the target status" do
+      it "should throw an illegal order status transition exception whose message includes the prior and target status" do
         lambda { order.transitionToStatus(@target_status) }.should
           raise_error(IllegalOrderStatusTransitionException, /.*#{order.status}.*#{@target_status}/)
       end
