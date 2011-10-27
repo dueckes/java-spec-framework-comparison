@@ -37,8 +37,8 @@
     <autodetection-disabled>
       <facet-type id="scala">
         <modules>
-          <module name="java-acceptance-test-tool-comparison" />
-          <module name="java-unit-test-tool-comparison" />
+          <module name="java-acceptance-spec-framework-comparison" />
+          <module name="java-unit-spec-framework-comparison" />
         </modules>
       </facet-type>
     </autodetection-disabled>
@@ -67,8 +67,8 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/unit-test/pom.xml" />
-        <option value="$PROJECT_DIR$/acceptance-test/pom.xml" />
+        <option value="$PROJECT_DIR$/unit-spec/pom.xml" />
+        <option value="$PROJECT_DIR$/acceptance-spec/pom.xml" />
       </list>
     </option>
   </component>
@@ -200,8 +200,8 @@
   </component>
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/acceptance-test/java-acceptance-test-tool-comparison.iml" filepath="$PROJECT_DIR$/acceptance-test/java-acceptance-test-tool-comparison.iml" />
-      <module fileurl="file://$PROJECT_DIR$/unit-test/java-unit-test-tool-comparison.iml" filepath="$PROJECT_DIR$/unit-test/java-unit-test-tool-comparison.iml" />
+      <module fileurl="file://$PROJECT_DIR$/acceptance-spec/java-acceptance-spec-framework-comparison.iml" filepath="$PROJECT_DIR$/acceptance-spec/java-acceptance-spec-framework-comparison.iml" />
+      <module fileurl="file://$PROJECT_DIR$/unit-spec/java-unit-spec-framework-comparison.iml" filepath="$PROJECT_DIR$/unit-spec/java-unit-spec-framework-comparison.iml" />
     </modules>
   </component>
   <component name="ProjectResources">
@@ -382,6 +382,17 @@
       </JAVADOC>
       <SOURCES>
         <root url="jar://$MAVEN_REPOSITORY$/net/sourceforge/nekohtml/nekohtml/1.9.15/nekohtml-1.9.15-sources.jar!/" />
+      </SOURCES>
+    </library>
+    <library name="Maven: net.ueckerman:java-unit-test-tool-comparison:1-SNAPSHOT">
+      <CLASSES>
+        <root url="jar://$PROJECT_DIR$/unit-spec/pom.xml!/" />
+      </CLASSES>
+      <JAVADOC>
+        <root url="jar://$PROJECT_DIR$/unit-spec/pom-javadoc.jar!/" />
+      </JAVADOC>
+      <SOURCES>
+        <root url="jar://$PROJECT_DIR$/unit-spec/pom-sources.jar!/" />
       </SOURCES>
     </library>
     <library name="Maven: org.apache.ant:ant-launcher:1.8.2">

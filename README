@@ -18,7 +18,7 @@ Mock tools exercised:
 Other tools used:
 * Checkstyle
 
-Build via: mvn test
+Run specs via: mvn test
 
 Acceptance Test Codebase
 ========================
@@ -28,5 +28,10 @@ The Play! application (v1.2.3) must currently be started / stopped manually.
 Also contains cuke4duke features exercising the Play! application and a demonstration of a fairly complex feature.
 Scala, Selenium 2 and ScalaTest are used to fulfill the step definitions.
 
-Start Play! via: play run --%prod
-Build via: mvn integration-test
+In order to run specs:
+# Navigate to unit-spec directory
+# Install unit-spec snapshot in local m2 repository via: mvn clean install
+# Navigate to acceptance-spec directory
+# Install Play! dependencies via: play dependencies & play mvn:update
+# Start Play! via: play run --%prod
+# Test via: mvn integration-test

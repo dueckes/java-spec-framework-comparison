@@ -11,13 +11,13 @@
 
   <modelVersion>4.0.0</modelVersion>
   <groupId>net.ueckerman</groupId>
-  <artifactId>java-acceptance-test-tool-comparison</artifactId>
+  <artifactId>java-acceptance-spec-framework-comparison</artifactId>
   <packaging>jar</packaging>
   <version>1-SNAPSHOT</version>
-  <name>Acceptance Test Tool Comparison</name>
+  <name>Acceptance Spec Framework Comparison</name>
 
   <scm>
-    <connection>scm:git:ssh://git@github.com:dueckes/java-test-comparison.git</connection>
+    <connection>scm:git:ssh://git@github.com:dueckes/java-spec-framework-comparison.git</connection>
   </scm>
 
   <repositories>
